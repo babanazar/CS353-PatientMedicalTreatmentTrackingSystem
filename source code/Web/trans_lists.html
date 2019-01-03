@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="table_css.css">
+    <meta charset="UTF-8">
+    <title>Transactions</title>
+</head>
+<body>
+<div class = "top">
+    <img src="logo.png" class = "logo">
+    <label id = "title"> Patient Medical Treatment Tracking System</label>
+    <button type = "submit" class = "top_but" id = "right_1" name = "logout" >Log out</button>
+</div>
+
+<div class = "menu">
+    <button type = "submit" class = "menu_but" id = "top_1" name = "profile" >Profile</button>
+    <button type = "submit" class = "menu_but" id = "top_2" name = "app" >Appointments</button>
+    <button type = "submit" class = "menu_but" id = "top_3" name = "doctors" >Doctors</button>
+    <button type = "submit" class = "menu_but" id = "top_4" name = "doctors" >Transactions</button>
+    <button type = "submit" class = "menu_but" id = "top_5" name = "set" >Settings</button>
+    <button type = "submit" class = "menu_but" id = "top_6" name = "developer" >Developers</button>
+</div>
+
+<div class="container">
+    <h3>Transactions</h3>
+    <hr color="#00cc00" size="3px">
+    <div class="info">
+        <label><b>Total transactions:     </b></label><br></div>
+    <div class="info">
+        <label><b>Total money spent:     </b></label><br></div>
+    <hr color="#00cc00" size="3px">
+    <label>
+        <b>Search according to date:     </b>
+        <input class = "search_in" type = "date" name="search">
+    </label>
+    <label>
+        <button type="submit" class = "search_but">Search</button>
+    </label>
+    <hr color="#00cc00" size="3px">
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Pharmacist</th>
+            <th>Select</th>
+        </tr>
+        <tr>
+            <td>22.02.199</td>
+            <td>22:00</td>
+            <td>Seimur</td>
+            <td><button type="submit" class = "select_but">View details</button></td>
+        </tr>
+        <tr>
+            <td>22.02.199</td>
+            <td>22:00</td>
+            <td>Seimur</td>
+            <td><button type="submit" class = "select_but">View details</button></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

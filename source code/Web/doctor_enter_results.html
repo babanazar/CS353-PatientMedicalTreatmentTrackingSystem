@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="patient_css.css">
+    <meta charset="UTF-8">
+    <title>Enter Results</title>
+</head>
+<body>
+<div class = "top">
+    <img src="logo.png" class = "logo">
+    <label id = "title"> Patient Medical Treatment Tracking System</label>
+    <button type = "submit" class = "top_but" id = "right_1" name = "logout" >Log out</button>
+</div>
+
+<div class = "menu">
+    <button type = "submit" class = "menu_but" id = "top_1" name = "profile" >Profile</button>
+    <button type = "submit" class = "menu_but" id = "top_2" name = "app" >Appointments</button>
+    <button type = "submit" class = "menu_but" id = "top_3" name = "hospitals" >Hospitals</button>
+    <button type = "submit" class = "menu_but" id = "top_4" name = "set" >Settings</button>
+    <button type = "submit" class = "menu_but" id = "top_5" name = "developer" >Developers</button>
+</div>
+
+<div class="container" id = "sign_second">
+    <h3>Appointment Result</h3>
+    <hr color="#00cc00" size="3px">
+    <h3>Tests</h3>
+    <label><b>Test's name:  </b></label>
+    <input type = "text" name = "test" >
+    <label><b>Done by:  </b></label>
+    <input type = "text" name = "done" >
+    <label><b>Results:   </b></label>
+    <input type = "text" name = "result" placeholder>
+    <button type="submit" class = "user_log">Add test</button>
+    <hr color="#00cc00" size="3px">
+    <h3>Diagnosis</h3>
+    <label><b>Disease:  </b></label>
+    <input type = "text" name = "disease" >
+    <label><b>Degree:  </b></label>
+    <input type = "number" name = "degree" >
+    <button type="submit" class = "user_log">Add disease</button>
+    <hr color="#00cc00" size="3px">
+    <h3>Prescription</h3>
+    <label><b>Drug:  </b></label>
+    <select name="drug">
+        <option value="drug">drug</option>
+        <option value="drug">drug</option>
+    </select><br>
+    <label><b>Amount:  </b></label>
+    <input type = "number" name = "drug_count" required>
+    <label><b>Description:   </b></label>
+    <input type = "text" name = "drug_des">
+    <button type="submit" class = "user_log">Add drug</button>
+    <hr color="#00cc00" size="3px">
+    <button type="submit" class = "half_but">Save</button>
+    <button type="submit" class = "half_but">Cancel</button>
+</div>
+</body>
+</html>

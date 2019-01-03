@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="table_css.css">
+    <meta charset="UTF-8">
+    <title>Appointments</title>
+</head>
+<body>
+<div class = "top">
+    <img src="logo.png" class = "logo">
+    <label id = "title"> Patient Medical Treatment Tracking System</label>
+    <button type = "submit" class = "top_but" id = "right_1" name = "logout" >Log out</button>
+</div>
+
+<div class = "menu">
+    <button type = "submit" class = "menu_but" id = "top_1" name = "profile" >Profile</button>
+    <button type = "submit" class = "menu_but" id = "top_2" name = "app" >Appointments</button>
+    <button type = "submit" class = "menu_but" id = "top_3" name = "hospitals" >Hospitals</button>
+    <button type = "submit" class = "menu_but" id = "top_4" name = "set" >Settings</button>
+    <button type = "submit" class = "menu_but" id = "top_5" name = "developer" >Developers</button>
+</div>
+
+<div class="container">
+    <h3>Appointments</h3>
+    <hr color="#00cc00" size="3px">
+    <div class="info">
+        <label><b>Requests:     </b></label><br></div>
+    <div class="info">
+        <label><b>Current appointments:     </b></label><br></div>
+    <div class="info">
+        <label><b>Completed appointments:     </b></label><br></div>
+    <hr color="#00cc00" size="3px">
+    <h4>Requests</h4>
+    <table>
+        <tr>
+            <th>Patient</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Accept</th>
+            <th>Reject</th>
+        </tr>
+        <tr>
+            <td>Voodoo</td>
+            <td>1</td>
+            <td>5</td>
+            <td><button type="submit" class = "select_but">accept</button></td>
+            <td><button type="submit" class = "select_but">reject</button></td>
+        </tr>
+    </table>
+    <h4>Current appointments</h4>
+    <table>
+        <tr>
+            <th>Patient</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Cancel</th>
+        </tr>
+        <tr>
+            <td>Voodoo</td>
+            <td>1</td>
+            <td>5</td>
+            <td><button type="submit" class = "select_but">cancel</button></td>
+        </tr>
+    </table>
+    <h4>Completed appointments</h4>
+    <table>
+        <tr>
+            <th>Patient</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>View</th>
+        </tr>
+        <tr>
+            <td>Voodoo</td>
+            <td>1</td>
+            <td>5</td>
+            <td><button type="submit" class = "select_but">view details</button></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

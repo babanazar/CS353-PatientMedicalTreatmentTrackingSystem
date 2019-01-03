@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="table_css.css">
+    <meta charset="UTF-8">
+    <title>Doctors</title>
+</head>
+<body>
+<div class = "top">
+    <img src="logo.png" class = "logo">
+    <label id = "title"> Patient Medical Treatment Tracking System</label>
+    <button type = "submit" class = "top_but" id = "right_1" name = "logout" >Log out</button>
+</div>
+
+<div class = "menu">
+    <button type = "submit" class = "menu_but" id = "top_1" name = "profile" >Profile</button>
+    <button type = "submit" class = "menu_but" id = "top_2" name = "app" >Appointments</button>
+    <button type = "submit" class = "menu_but" id = "top_3" name = "doctors" >Doctors</button>
+    <button type = "submit" class = "menu_but" id = "top_4" name = "doctors" >Transactions</button>
+    <button type = "submit" class = "menu_but" id = "top_5" name = "set" >Settings</button>
+    <button type = "submit" class = "menu_but" id = "top_6" name = "developer" >Developers</button>
+</div>
+
+<div class="container">
+    <h3>Doctors</h3>
+    <hr color="#00cc00" size="3px">
+    <label>
+        <b>Search:     </b>
+        <input class = "search_in" type = "text" name="search">
+    </label>
+    <label>
+        <b>According to:     </b>
+        <select class="small_select" name="select">
+            <option value="hospital">hospital</option>
+            <option value="name">name</option>
+            <option value="experience">experience</option>
+            <option value="specialization">specialization</option>
+        </select>
+        <button type="submit" class = "search_but">Choose</button>
+    </label>
+    <hr color="#00cc00" size="3px">
+    <table>
+        <tr>
+            <th>Hospital</th>
+            <th>Name</th>
+            <th>Experience</th>
+            <th>Specialization</th>
+            <th>Select</th>
+        </tr>
+        <tr>
+            <td>Nort home</td>
+            <td>Maria Anders</td>
+            <td>24</td>
+            <td>Cancer</td>
+            <td><button type="submit" class = "select_but">View profile</button></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

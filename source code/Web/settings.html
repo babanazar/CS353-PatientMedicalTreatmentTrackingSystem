@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="table_css.css">
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+<div class = "top">
+    <img src="logo.png" class = "logo">
+    <label id = "title"> Patient Medical Treatment Tracking System</label>
+    <button type = "submit" class = "top_but" id = "right_1" name = "logout" >Log out</button>
+</div>
+
+<div class = "menu">
+    <button type = "submit" class = "menu_but" id = "top_1" name = "profile" >Profile</button>
+    <button type = "submit" class = "menu_but" id = "top_2" name = "app" >Appointments</button>
+    <button type = "submit" class = "menu_but" id = "top_3" name = "doctors" >Doctors</button>
+    <button type = "submit" class = "menu_but" id = "top_4" name = "set" >Settings</button>
+    <button type = "submit" class = "menu_but" id = "top_5" name = "developer" >Developers</button>
+</div>
+
+<div class="container" id = "sign_second">
+    <h3>Change settings</h3>
+    <hr color="#00cc00" size="3px">
+    <h3>Change username & password</h3>
+    <div class="info">
+    <label><b>Current username:     </b></label><br></div>
+    <label>
+        <b>Username:     </b>
+        <input class = "search_in" type = "text" name="change_username">
+    </label>
+    <label>
+        <button type="submit" class = "search_but">Change</button>
+    </label>
+    <br>
+    <label>
+        <b> Password:      </b>
+        <input class = "search_in" type = "password" name="change_pass">
+    </label>
+    <label>
+        <button type="submit" class = "search_but">Change</button>
+    </label>
+    <hr color="#00cc00" size="3px">
+    <h3>Delete an account</h3>
+    <input class="text_wide" type = "password" name = "delete" placeholder = "enter your current password">
+    <button type = "submit" class = "user_log">Delete</button>
+</div>
+</body>
+</html>
